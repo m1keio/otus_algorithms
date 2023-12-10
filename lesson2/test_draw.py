@@ -61,7 +61,7 @@ class FillTicketsTestCase(unittest.TestCase):
         import os
         import time
         from draw import fillTickets, getAllLuckyTickets
-        test_files_dir = "tests/1.Tickets"
+        test_files_dir = "lesson2/tests/1.Tickets"
         for filename in sorted(os.listdir(test_files_dir)):
             if filename.endswith(".in"):
                 input_file = os.path.join(test_files_dir, filename)
@@ -92,8 +92,3 @@ class FillTicketsTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-
-
-
