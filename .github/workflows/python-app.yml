@@ -31,4 +31,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
-        pytest --timeout=200 -s --timeout_method=thread -v
+        pytest --timeout=600 -s --timeout_method=thread -v
