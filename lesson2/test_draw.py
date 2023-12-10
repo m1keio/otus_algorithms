@@ -46,7 +46,7 @@ class FillTicketsTestCase(unittest.TestCase):
         getAllLuckyTickets(tickets)
         end = time.time()
         regular = end - start
-        print("Regular: ", regular)
+        print("\nRegular: ", regular)
 
         start_faster = time.time()
         tickets_faster = fillTicketsFaster(length=3)
