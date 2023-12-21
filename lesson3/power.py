@@ -80,6 +80,8 @@ def power_memo(a, n, memo={}):
         return memo[n]
 
 
+# Сделал отдельные функции для корректного замера времени
+
 @timeit
 def reg_power_dumb(base, dpower):
     return power_dumb(base, dpower)
